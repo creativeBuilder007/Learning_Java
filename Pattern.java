@@ -14,6 +14,7 @@ class Pattern {
         //     }
         //     System.out.println();
         // }
-        // 2 - 
+        // 2 - Triangle Pattern
+        
     }
 }

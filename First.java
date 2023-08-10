@@ -242,8 +242,5 @@ class First {
         //     }
         //     System.out.println();
         // }
-        if(0) {
-            System.out.println("OK");
-        }
     }
 };
