@@ -18,22 +18,16 @@ class Fan {
     }
 
     public static void main(String[] args) {
-        Fan f1 = new Fan();
-        f1.Starting();
-        f1.Stopping();
-        Fan f2 = new Fan();
-        f2.Starting();
-        f2.Rotating();
-        Fan f3 = new Fan();
-        f3.Starting();
-        f3.Rotating();
-        f3.BlowingAir();
-        f3.Stopping();
-
-        System.out.println(f1);
-        System.out.println(f3);
-        System.out.println(f2);
-
-        System.err.println("You rocked in JAVA MAN !!");
+        // if(args.length!=3) {
+        //     System.out.println("Three arguments required");
+        // } else {
+        //     System.out.println("You have entered three arguments you can proceed!");
+        //     System.out.println("Company Name : " + args[0] +
+        //                         "Company City : "+args[1]+
+        //                         "Company Country :  "+args[2]);
+        // }
+        String a = args[2];
+        System.out.println(a);
+        
     }
 }
