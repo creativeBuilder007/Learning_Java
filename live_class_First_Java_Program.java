@@ -33,5 +33,7 @@ class Fan {
         System.out.println(f1);
         System.out.println(f3);
         System.out.println(f2);
+
+        System.err.println("You rocked in JAVA MAN !!");
     }
 }
